@@ -1,0 +1,84 @@
+.container{
+    background-color: white;
+    color: rgb(115, 114, 114);
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 13%;
+}
+
+.forms{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+.forms>h1{
+    color: rgb(104, 99, 99);
+    margin: auto;
+}
+.forms>div{
+    margin-top: 20px;
+}
+.forms>div>input{
+    width: 320px;
+    border: 1px solid rgb(151, 151, 154);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.forms>div>input:hover{
+    border: 1px solid rgb(220, 158, 15);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: rgb(245, 245, 245);
+}
+.password{
+    margin-top: 10px;
+}
+.forms>button{
+    padding: 10px;
+    background-color:rgb(81, 159, 238);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.forms>button:hover{
+    background-color:rgb(11, 122, 225);
+}
+
+@media only screen and (max-width:768px){
+    .forms{
+        display: grid;
+        justify-content: center;
+        width: 100%;
+    }
+    .forms>input{
+        width: 250px;
+        border: 1px solid rgb(151, 151, 154);
+        padding: 20px;
+        border-radius: 5px;
+    }
+    
+}
+@media only screen and (max-width:426px){
+    .forms{
+        width: 90%;
+    }
+    .forms>div>input{
+        width: 200px;
+    }
+}
+@media only screen and (max-width:320px){
+    .forms{
+        width: 80%;
+    }
+    .forms>div>input{
+        width: 150px;
+    }
+}
