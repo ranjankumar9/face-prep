@@ -3,7 +3,7 @@
     padding: 0;
 }
 /* ------------------------------Scroll Webkit ------------------------------- */
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 20px;
     height: 10px;
   }
@@ -19,7 +19,7 @@
   
   ::-webkit-scrollbar-thumb:hover {
     background: green;
-  } */
+  } 
   /* ------------------------------Scroll Webkit ------------------------------- */
 .container{
     display: flex;
