@@ -27,6 +27,7 @@ const Login: React.FC = () => {
           <input
             type="text"
             placeholder="Enter your email"
+            name="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
@@ -35,13 +36,14 @@ const Login: React.FC = () => {
           <input
             type="password"
             placeholder="Enter your Password"
+            name="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
           />
         </div>
 
-        <button type="submit">Login</button>
+        <button type="submit" className={css.btn}>Login</button>
       </form>
     </div>
   );
