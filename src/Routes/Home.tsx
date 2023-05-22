@@ -23,7 +23,7 @@ const Home: React.FC = () => {
   const GetData = async () => {
     try {
       const response: AxiosResponse = await axios.get(
-        `https://randomuser.me/api/?results=12`
+        `https://randomuser.me/api/?results=50`
       );
       const newData: User[] = response.data.results;
       setData((prevData) => [...prevData, ...newData]);

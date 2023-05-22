@@ -4,8 +4,7 @@
 }
 /* ------------------------------Scroll Webkit ------------------------------- */
 ::-webkit-scrollbar {
-    width: 20px;
-    height: 10px;
+    width: 10px;
   }
   
   ::-webkit-scrollbar-track {
@@ -13,12 +12,12 @@
   }
   
   ::-webkit-scrollbar-thumb {
-    background: rgb(209, 57, 57);
+    background: rgb(108, 107, 107);
     border-radius: 10px;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: green;
+    background: rgb(164, 165, 164);
   } 
   /* ------------------------------Scroll Webkit ------------------------------- */
 .container{
@@ -26,7 +25,8 @@
     align-items: center;
     justify-content: space-around;
     position: fixed;
-    box-shadow: rgba(8, 205, 37, 0.903) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* box-shadow: rgba(8, 205, 37, 0.903) 0px 5px 15px; */
     width: 100%;
     margin: auto;
     height: 80px;
@@ -40,7 +40,7 @@
     font-size: 2em;
     font-weight: 900;
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(11, 206, 11);
+    color:rgb(143, 140, 140);
 }
 .nav3>button{
     padding: 13px;
